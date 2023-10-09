@@ -1,0 +1,29 @@
+Tried to follow the time limit and sharing the amount of work done.
+
+README:
+
+Used a maven project with TestNG to build
+
+    ├── src/
+    │   ├── main/
+    │   └── test/
+    │       ├── java/
+    │       │   ├── api/
+    │       │   │   ├── APIClient.java (with call request for APIs)
+    │       │   ├── tests/
+    │       │   │   ├── SearchAPITest.java (test to search for content based on search parameter)
+    │       │   │   ├── GetDetailsAPITest.java (to get details of any specific title page)
+	|	    |   ├── utils/   
+	│       │   │   ├── Constants.java (saved all the variables in constants file, to avoid hard coding in main code files)	    
+    └── pom.xml (added rest assured, testNg dependencies)
+    
+To run test cases:
+
+To run the tests, execute the following command in your project directory: "mvn test"
+One can also run specific test from IDE, by selecting and running specific test by TestNg    
+
+
+Some of the Test Cases:
+To verify the page history is updated when there is any changes made (latest timestamp for revision history for title)
+
+To verify the html is loaded for offline page

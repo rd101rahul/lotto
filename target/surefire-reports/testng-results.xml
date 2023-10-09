@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4685" started-at="2023-10-09T11:17:30Z" finished-at="2023-10-09T11:17:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4685" started-at="2023-10-09T11:17:30Z" finished-at="2023-10-09T11:17:35Z">
+      <class name="tests.GetDetailsAPITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GetDetailsAPITest@17f6480]" name="setup" is-config="true" duration-ms="17" started-at="2023-10-09T11:17:30Z" finished-at="2023-10-09T11:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getPageDetails()[pri:0, instance:tests.GetDetailsAPITest@17f6480]" name="getPageDetails" duration-ms="3860" started-at="2023-10-09T11:17:30Z" finished-at="2023-10-09T11:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageDetails -->
+      </class> <!-- tests.GetDetailsAPITest -->
+      <class name="tests.SearchAPITest">
+        <test-method status="PASS" signature="testSearchForFurryRabbits()[pri:0, instance:tests.SearchAPITest@2d6e8792]" name="testSearchForFurryRabbits" duration-ms="784" started-at="2023-10-09T11:17:34Z" finished-at="2023-10-09T11:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchForFurryRabbits -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchAPITest@2d6e8792]" name="setup" is-config="true" duration-ms="0" started-at="2023-10-09T11:17:34Z" finished-at="2023-10-09T11:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- tests.SearchAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

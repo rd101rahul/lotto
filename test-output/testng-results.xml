@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3730" started-at="2023-10-09T11:16:06Z" finished-at="2023-10-09T11:16:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3730" started-at="2023-10-09T11:16:06Z" finished-at="2023-10-09T11:16:10Z">
+      <class name="tests.GetDetailsAPITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GetDetailsAPITest@26be92ad]" name="setup" is-config="true" duration-ms="8" started-at="2023-10-09T11:16:06Z" finished-at="2023-10-09T11:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getPageDetails()[pri:0, instance:tests.GetDetailsAPITest@26be92ad]" name="getPageDetails" duration-ms="3707" started-at="2023-10-09T11:16:06Z" finished-at="2023-10-09T11:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageDetails -->
+      </class> <!-- tests.GetDetailsAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

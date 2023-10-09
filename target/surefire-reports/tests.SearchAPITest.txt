@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: tests.SearchAPITest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.888 sec <<< FAILURE!
+testSearchForFurryRabbits(tests.SearchAPITest)  Time elapsed: 0.298 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/commons/lang3/Validate
+	at io.restassured.config.LogConfig.<init>(LogConfig.java:85)
+	at io.restassured.config.LogConfig.<init>(LogConfig.java:44)
+	at io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+	at io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+	at api.APIClient.searchForPages(APIClient.java:14)
+	at tests.SearchAPITest.testSearchForFurryRabbits(SearchAPITest.java:23)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.lang3.Validate
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 43 more
+
